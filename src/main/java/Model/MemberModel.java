@@ -8,7 +8,7 @@ package Model;
  *
  * @author ASUS
  */
-// File: src/Model/MemberModel.java
+
 
 
 
@@ -33,7 +33,7 @@ public class MemberModel {
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Error: " + e.getMessage());
         }
-        return false; // Member ID does not exist or an error occurred
+        return false; 
     }
     
     public boolean insertMember(String memberId, String name, String email, String category, String faculty) {

@@ -1,6 +1,6 @@
 package Model;
 
-import Project.ConnectionProvider; // Update the import to the correct package
+import Project.ConnectionProvider;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

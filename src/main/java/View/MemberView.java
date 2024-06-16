@@ -136,7 +136,7 @@ public class MemberView extends javax.swing.JFrame {
     String category = getCategory();
     String faculty = getFaculty();
 
-    // Validate input (e.g., not empty fields)
+  
     if (memberId.isEmpty() || name.isEmpty() || email.isEmpty()) {
         showMessage("Please fill all fields");
         return;

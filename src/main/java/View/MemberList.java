@@ -168,9 +168,9 @@ public class MemberList extends javax.swing.JFrame {
     private void deleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteActionPerformed
        int selectedRow = Table.getSelectedRow();
     if (selectedRow != -1) {
-        String memberId = (String) Table.getValueAt(selectedRow, 0); // Assuming member ID is in the first column
+        String memberId = (String) Table.getValueAt(selectedRow, 0); 
         // Implement delete operation using memberId in MemberModel
-        boolean deleted = model.deleteMember(memberId); // Implement this method in MemberModel
+        boolean deleted = model.deleteMember(memberId);
         
         if (deleted) {
             JOptionPane.showMessageDialog(this, "Member deleted successfully.");

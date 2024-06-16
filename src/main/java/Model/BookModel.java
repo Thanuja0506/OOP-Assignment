@@ -8,7 +8,7 @@ package Model;
  *
  * @author ASUS
  */
-// File: src/Model/MemberModel.java
+
 
 
 public class BookModel {

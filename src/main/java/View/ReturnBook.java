@@ -204,16 +204,16 @@ public class ReturnBook extends javax.swing.JFrame {
         String memberId = memberId1.getText().trim();
     String bookId = bookId1.getText().trim();
 
-    // Example usage of ReturnBookController to handle return operation
+   
     ReturnBookController controller = new ReturnBookController();
     boolean returned = controller.returnBook(memberId, bookId);
 
     if (returned) {
         JOptionPane.showMessageDialog(this, "Book returned successfully!");
-        // Optionally update UI or reset fields
+      
     } else {
         JOptionPane.showMessageDialog(this, "Failed to return the book. Please try again.");
-        // Optionally handle failure scenario
+      
     }
     }//GEN-LAST:event_returnbtnActionPerformed
 
